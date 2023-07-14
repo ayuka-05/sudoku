@@ -1,0 +1,77 @@
+.title {
+    height: 310px;
+    background-image: url(../images/common/sudokuNow.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #1b2194;
+}
+
+.title h1 {
+    font-family: 'Kaisei Tokumin', serif;    
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.title p {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.feature img {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.reverse {
+    font-family: 'Kaisei Tokumin', serif;
+    flex-direction: row-reverse;
+}
+
+.reverse .feature-text {
+    font-family: 'Kaisei Tokumin', serif;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.feature-text h2 {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.feature-text h2::after {
+    font-family: 'Kaisei Tokumin', serif;
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.feature-text p {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
